@@ -1,4 +1,15 @@
 from datetime import datetime
 
-def log(action):
- return {"action":action,"timestamp":datetime.utcnow().isoformat()}
+
+class AuditLogger:
+
+    def log(self, action, result):
+
+        log_entry = {
+            "timestamp":
+                datetime.utcnow().isoformat(),
+            "action": action,
+            "result": result
+        }
+
+        print(log_entry)
