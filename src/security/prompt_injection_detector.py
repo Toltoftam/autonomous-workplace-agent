@@ -1,4 +1,15 @@
-DANGEROUS=["ignore previous instructions","reveal system prompt"]
+class PromptInjectionDetector:
 
-def scan(text):
- return any(x in text.lower() for x in DANGEROUS)
+    DANGEROUS_PATTERNS = [
+
+        "ignore previous instructions",
+
+        "reveal system prompt",
+
+        "override policy",
+
+        "disable safeguards"
+    ]
+
+    @classmethod
+    def scan(cls, text):
