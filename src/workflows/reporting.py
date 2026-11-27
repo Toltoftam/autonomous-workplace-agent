@@ -1,4 +1,4 @@
-from agents.reporting_agent import (
+from src.agents.reporting_agent import (
     ReportingAgent
 )
 
