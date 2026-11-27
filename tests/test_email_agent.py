@@ -1,4 +1,4 @@
-from agents.email_agent import EmailAgent
+from src.agents.email_agent import EmailAgent
 
 
 def test_refund_classification():
