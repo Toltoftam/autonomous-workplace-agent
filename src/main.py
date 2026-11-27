@@ -1,4 +1,4 @@
-from utils.healthcheck import (
+from src.utils.healthcheck import (
     HealthCheck
 )
 
