@@ -1,4 +1,4 @@
-from agents.lead_generation_agent import (
+from src.agents.lead_generation_agent import (
     LeadGenerationAgent
 )
 
