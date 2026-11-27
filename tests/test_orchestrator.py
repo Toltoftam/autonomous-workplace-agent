@@ -1,4 +1,4 @@
-from agents.workflow_orchestrator import (
+from src.agents.workflow_orchestrator import (
     WorkflowOrchestrator
 )
 
