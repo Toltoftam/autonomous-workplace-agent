@@ -1,5 +1,5 @@
-from agents.email_agent import EmailAgent
-from security.audit_logger import AuditLogger
+from src.agents.email_agent import EmailAgent
+from src.security.audit_logger import AuditLogger
 
 
 class EmailTriageWorkflow:
