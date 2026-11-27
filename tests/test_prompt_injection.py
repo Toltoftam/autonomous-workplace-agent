@@ -12,6 +12,6 @@ def test_prompt_injection():
     assert (
         PromptInjectionDetector.scan(
             prompt
-        ),
+        )
         is True
     )
