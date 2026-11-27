@@ -1,4 +1,4 @@
-from agents.customer_support_agent import (
+from src.agents.customer_support_agent import (
     CustomerSupportAgent
 )
 
