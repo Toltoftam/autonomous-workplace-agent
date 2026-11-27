@@ -1,4 +1,4 @@
-from security.prompt_injection_detector import (
+from src.security.prompt_injection_detector import (
     PromptInjectionDetector
 )
 
