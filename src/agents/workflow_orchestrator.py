@@ -1,4 +1,4 @@
-from agents.task_router import TaskRouter
+from src.agents.task_router import TaskRouter
 
 
 class WorkflowOrchestrator:
